@@ -1,0 +1,35 @@
+body {
+  font-family: Roboto;
+}
+
+.menu {
+  background-color: rgb(169, 169, 169);
+  width: 40%;
+}
+.menu ul {
+  list-style-type: "🔶";
+  padding-left: 1.3rem;
+}
+.menu a {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+}
+.menu li {
+  margin: 5px;
+  margin-left: 0;
+  margin-right: auto;
+}
+a:hover {
+  background-color: rgb(127, 127, 127);
+  color: black;
+}
+a:link {
+  font-weight: 400;
+}
+.link:active {
+  background-color: black;
+}
+li.item {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}

@@ -1,0 +1,21 @@
+
+nav.menu li{
+ background-color: rgb(164, 164, 164);
+ display: inline-block;
+ padding: 10px 20px;
+ margin-right: 20px;
+ width: 5rem;
+ text-align: center;
+ 
+}
+nav.menu ul{
+ padding:0;
+ margin: 0;
+ list-style-type: none;
+  text-align: center;
+}
+nav.menu a{
+ text-decoration: none;
+ color: black;
+ 
+}

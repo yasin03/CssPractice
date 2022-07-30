@@ -1,0 +1,22 @@
+
+.blok-inline{
+ background-color: red;
+ padding:20px;
+}
+.blok-inline b{
+ background-color:rgb(2, 205, 46);
+ color:white;
+}
+
+.blok-blok{
+ background-color: yellow;
+ padding: 20px;
+ text-align: center;
+}
+.blok-blok div{
+ background-color:blueviolet;
+ width: 100px;
+ color:white;
+ margin-left: auto;
+ margin-right: auto;
+}

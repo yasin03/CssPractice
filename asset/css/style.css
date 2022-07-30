@@ -1,0 +1,26 @@
+h1 {
+  font-style: italic;
+  text-align: center;
+  color: #fbfbfb;
+  font-size: 2em;
+}
+.page-header {
+  background-color: rgb(54, 70, 255);
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: rgb(54, 70, 255);
+  font-size: large;
+
+}
+a:hover {
+  background-color: rgb(231, 255, 11);
+}
+a:active{
+ background-color: rgb(162, 3, 3);
+}
+
+.navbar a {
+  text-decoration: none;
+}

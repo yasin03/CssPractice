@@ -1,0 +1,70 @@
+:root {
+  --color1: rgb(80, 80, 80);
+  --color2: rgb(197, 197, 197);
+  --color3: rgb(235, 235, 235);
+  --color4: rgb(197, 197, 197);
+  --color5: rgb(220, 100, 14);
+}
+
+body {
+  font-family: Montserrat;
+}
+.head-tr {
+  background-color: var(--color1);
+  color: white;
+  
+}
+
+.body tr:nth-child(odd) {
+  background-color: var(--color2);
+}
+
+.head-tr th:nth-child(2) {
+  padding-right: 150px;
+}
+.body tr td:nth-child(2) {
+  text-align: left;
+}
+
+.body tr td:nth-child(3) {
+  text-align: center;
+}
+
+.body tr td:nth-child(4) {
+  text-align: right;
+}
+
+.body tr td:nth-child(5) {
+  text-align: right;
+  font-weight: bold;
+}
+
+.body tr:nth-child(even) {
+  background-color: var(--color3);
+}
+
+.ri {
+  text-align: right;
+}
+
+.foot {
+  background-color: var(--color1);
+  color: white;
+  font-weight: bold;
+  
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--color5);
+  color: white;
+  border: none;
+  display: inline-block;
+  align-items: right;
+}
+
+.btn:hover {
+  background-color: rgb(252, 204, 101);
+  color: black;
+}

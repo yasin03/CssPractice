@@ -1,0 +1,42 @@
+:root{
+ --color1:#FF0063;
+ --color2:#EAF6F6;
+ --color3:#6c052c;
+}
+
+.menu {
+  background-color: var(--color2);
+  width: 100%;
+  height: 100px;
+}
+
+
+.button-list {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.button-list button {
+  padding: 10px 5px;
+  margin: 20px;
+  width:180px;
+  background-color: var(--color1);
+  border-radius:10px;
+  border: none;
+
+  
+  
+}
+
+.button-list a {
+  text-decoration: none;
+  color: var(--color2);
+  font-size: large;
+  margin: 10px 5px;
+  
+}
+
+.button-list button:hover{
+ background-color:var(--color3);
+ transition: all 0.3s ease;
+}

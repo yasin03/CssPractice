@@ -1,0 +1,43 @@
+:root{
+--color1:rgb(131, 0, 112);
+--color2:rgb(212, 212, 212);
+}
+
+body{
+ padding:20px;
+}
+
+.main-box{
+ background-color: var(--color1);
+ padding: 20px;
+}
+
+.main-box h2{
+ color:var(--color2);
+ text-shadow: 5px;
+
+}
+
+.sub-box{
+ background-color: var(--color2);
+ padding: 20px;
+}
+
+.code-box{
+ background-color:grey;
+ padding: 10px;
+ 
+}
+
+.main-box button{
+ padding: 10px 10px;
+ background-color:var(--color1);
+ color: var(--color2);
+ border:none;
+ border-radius:8px;
+ margin-top: 10px;
+}
+
+.main-box a{
+ color:rgb(41,41,41);
+}

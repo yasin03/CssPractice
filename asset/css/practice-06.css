@@ -1,0 +1,30 @@
+body{
+    background-image: url("../img/resim2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-style: italic;
+}
+.menu{
+    background-color: aqua;
+    padding: .8rem;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: .5rem;
+    font-size:1.3rem;
+}
+.icerik{
+    background-color: rgb(100, 65, 65);
+}
+.tablo h2{
+    font-style: italic;
+}
+.tablo table{
+  background-color:burlywood;
+  width:30%;  
+}
+thead th{
+    text-align: center;
+}

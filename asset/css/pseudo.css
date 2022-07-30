@@ -1,0 +1,47 @@
+a{
+ color:rgb(23, 203, 59);
+}
+
+a:visited{
+ color:palevioletred;
+}
+
+a:active{
+ background-color:brown;
+ color:white;
+}
+
+.form-el{
+ background-color: antiquewhite;
+}
+
+.form-el:focus{
+ background-color:aquamarine;
+}
+
+ul li{
+ background-color:aqua;
+ margin: 5px;
+}
+
+ul li:first-child{
+ background-color:rgb(254, 100, 231);
+ margin: 5px;
+}
+
+ul li:last-child{
+ background-color:rgb(242, 255, 127);
+ margin: 5px;
+}
+
+ul li:nth-child(3){
+ background-color:rgb(83, 249, 155);
+ margin: 5px;
+}
+
+ul li:nth-child(odd){
+
+}
+ul li:nth-child(even){
+
+}

@@ -1,0 +1,32 @@
+body {
+  background-image: url("../img/resim2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  background-color: aqua;
+  text-align: center;
+  padding: 1rem;
+}
+
+section.container {
+  width: 30%;
+}
+
+.aylar {
+ background-color: bisque;
+ padding-bottom: 0.5rem;
+}
+.mevsimler{
+ background-color: darkgoldenrod;
+ padding-bottom: 0.5rem;
+}
+
+.gunler{
+ background-color:chocolate;
+ padding-bottom: 0.5rem;
+}
+
+
